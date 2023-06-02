@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  user-postgres:
+    container_name: user-postgres
+    image: postgres:14.4
+    ports:
+      - "5420:5432"
+    environment:
+      POSTGRES_USER: "dev"
+      POSTGRES_PASSWORD: "12345"
+      POSTGRES_DB: "postgres"
