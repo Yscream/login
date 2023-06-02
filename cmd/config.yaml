@@ -1,0 +1,11 @@
+username: "Pavlo232"
+password: "123456"
+password_hash: "e10adc3949ba59abbe56e057f20f883e"
+
+db:
+  host: "localhost"
+  port: "5420"
+  username: "dev"
+  password: "12345"
+  dbName: "postgres"
+  sslmode: "disable"
